@@ -7,12 +7,12 @@ What the programm does:
 - resolves sharing secrete by means of users' secrete keys.
 
 Whenever exploiting, consider:
-t - number of users to join their secrete keys in order to resolve sharing secrete,
-modulus - prime number that initializes numeric field,
-usersNumber - overall number of users currently supported by algorithm.
+1) t - number of users to join their secrete keys in order to resolve sharing secrete,
+2) modulus - prime number that initializes numeric field,
+3) usersNumber - overall number of users currently supported by algorithm.
 
 Within exploiting (console mode), consider:
-List of users - list of users' cryptographic numbers,
-List of users' keys - list of corresponding users' personal keys,
-Secrete polynomial - list of coefficients of polynomial from the lowest degree monomial of x^0 to the highest degree of monomial x^(t-1),
-Resolved secrete - sharing secrete.
+1) List of users - list of users' cryptographic numbers,
+2) List of users' keys - list of corresponding users' personal keys,
+3) Secrete polynomial - list of coefficients of polynomial from the lowest degree monomial of x^0 to the highest degree of monomial x^(t-1),
+4) Resolved secrete - sharing secrete.
