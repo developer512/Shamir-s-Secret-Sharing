@@ -1,5 +1,5 @@
 # Shamir-s-Secret-Sharing
-This is a simple implementation of Shamir's secrete sharing cryptographic algorithm in C++
+This is a simple implementation of Shamir's secrete sharing cryptographic algorithm in C++.
 What the programm does:
 - generates pseudorandom cryptographic numbers that are users' identifier;
 - generates a secrete polynomial over a chosen finite field;
